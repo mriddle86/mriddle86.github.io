@@ -1,2 +1,2 @@
-# mriddle86.github.io
-main website repository
+# Basic-Portfolio
+Basic portfolio website for homework week one
