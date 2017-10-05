@@ -1,0 +1,139 @@
+h1, h2, h3, h4, h5, h6, p, a {
+	font-family: Arial, Tahoma, "Sans Serif";
+
+}
+h1 {
+	font-size: 24px;
+	line-height: 200%;
+	
+}
+
+h2 {
+	font-size: 22px;
+	line-height: 110%;
+	
+}
+
+h3 {
+	font-size: 20px;
+	line-height: 110%;
+	
+}
+
+h4 {
+	font-size: 18px;
+	line-height: 110%;
+	
+}
+
+h5 {
+	font-size: 16px;
+	line-height: 110%;
+	
+}
+
+h6 {
+	font-size: 14px;
+	line-height: 110%;
+	
+	font-style: oblique;
+}
+
+p {
+	font-size: 14px;
+	line-height: 110%;
+	
+	
+}
+
+a {
+	font-size: 14px;
+	line-height: 110%;
+	color: #cccccc;
+	
+}
+
+body {
+	background-color: #dddddd;
+}
+
+header {
+	background-color: #ffffff;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	text-align: right;
+	padding: 0 10px;
+	height: 60px;
+	overflow: auto;
+}
+
+footer {
+	background-color: #aaaaaa;
+	position: absolute;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	color: #ffffff;
+}
+
+.header-div {
+	background-color: green;
+	color: #ffffff;
+	position: absolute;
+	top: 0;
+	left: 100px;
+	width: 175px;
+	text-align: center;
+	float: left;
+	padding: 10px;
+	height: 100%;
+
+
+}
+
+.menu-div1 {
+	position: relative;
+	padding: 10px;
+	float: right;
+	border-right: 2px;
+	border-color: #cccccc;
+}
+
+
+.menu-div2 {
+	position: relative;
+	padding: 10px;
+	float: right;
+	border-right: 2px;
+	border-color: #cccccc;
+}
+
+
+.menu-div3 {
+	position: relative;
+	padding: 10px;
+	float: right;
+	right: 300px;
+}
+
+.about-box {
+	position: absolute;
+	top: 100px;
+	background-color: #ffffff;
+	left: 100px;
+	width: 40%;
+	padding: 10px;
+
+}
+
+.connect-box {
+	position: absolute;
+	right: 300px;
+	top: 100px;
+	background-color: #ffffff;
+	padding: 30px;
+
+}
