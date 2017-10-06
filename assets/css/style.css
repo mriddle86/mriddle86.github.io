@@ -1,60 +1,64 @@
 h1, h2, h3, h4, h5, h6, p, a {
-	font-family: Arial, Tahoma, "Sans Serif";
+	font-family: Arial, Tahoma, sans-serif;
 
 }
 h1 {
 	font-size: 24px;
-	line-height: 200%;
+	line-height: 150%;
 	
 }
 
 h2 {
 	font-size: 22px;
-	line-height: 110%;
+	line-height: 150%;
+	color: #00ccff;
 	
 }
 
 h3 {
 	font-size: 20px;
-	line-height: 110%;
+	line-height: 150%;
+	color: #00ccff;
 	
 }
 
 h4 {
 	font-size: 18px;
-	line-height: 110%;
+	line-height: 150%;
+	color: #00ccff;
 	
 }
 
 h5 {
 	font-size: 16px;
-	line-height: 110%;
+	line-height: 150%;
 	
 }
 
 h6 {
-	font-size: 14px;
-	line-height: 110%;
+	font-size: 16px;
+	line-height: 150%;
 	
 	font-style: oblique;
 }
 
 p {
-	font-size: 14px;
-	line-height: 110%;
+	font-size: 16px;
+	line-height: 150%;
 	
 	
 }
 
 a {
-	font-size: 14px;
-	line-height: 110%;
+	font-size: 16px;
+	line-height: 150%;
 	color: #cccccc;
 	
 }
 
 body {
 	background-color: #dddddd;
+	overflow: auto;
 }
 
 header {
@@ -66,21 +70,26 @@ header {
 	padding: 0 10px;
 	height: 60px;
 	overflow: auto;
+	z-index: 3;
 }
 
 footer {
 	background-color: #aaaaaa;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	height: 40px;
 	width: 100%;
 	text-align: center;
-	padding: 10px;
+	padding: 0 auto;
 	color: #ffffff;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #00ccff;
+	z-index: 4;
 }
 
 .header-div {
-	background-color: green;
+	background-color: #00ccff;
 	color: #ffffff;
 	position: absolute;
 	top: 0;
@@ -94,46 +103,135 @@ footer {
 
 }
 
-.menu-div1 {
-	position: relative;
+.menu-div {
+	position: absolute;
 	padding: 10px;
 	float: right;
-	border-right: 2px;
-	border-color: #cccccc;
+	left: 900px
+	
+}
+
+.menu-div1 {
+	position: relative;
+	padding: 2px 5px;
+	float: left;
+
+	border-right: 1px solid #cccccc;
 }
 
 
 .menu-div2 {
 	position: relative;
-	padding: 10px;
-	float: right;
-	border-right: 2px;
-	border-color: #cccccc;
+	padding: 2px 5px;
+	border-right: 1px solid #cccccc;
+	float: left;
+	
 }
 
 
 .menu-div3 {
 	position: relative;
-	padding: 10px;
-	float: right;
-	right: 300px;
+	padding: 2px 5px;
+	float: left;
+	
 }
+
 
 .about-box {
 	position: absolute;
 	top: 100px;
 	background-color: #ffffff;
 	left: 100px;
-	width: 40%;
-	padding: 10px;
+	max-width: 50%;
+	padding: 20px;
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	line-height: 150%;
+	overflow: auto;
+	margin-bottom: 100px;
 
+}
+
+.image-align {
+	float: left;
+	padding: 0 15px 15px 0;
+}
+
+.image-align2 {
+	float: left;
+	padding: 10px 3px 0 3px;
+}
+
+.icon-box {
+	margin: auto;
 }
 
 .connect-box {
 	position: absolute;
-	right: 300px;
+	left: 900px;
 	top: 100px;
 	background-color: #ffffff;
-	padding: 30px;
+	padding: 20px;
+	width: 17%;
+	text-align: center;
+	
+}
 
+.input-name {
+	width: 600px;
+	height: 20px;
+
+}
+
+.input-email {
+	width: 600px;
+	height: 20px;
+
+}
+
+.input-message {
+	width: 600px;
+	height: 45px;
+	clear: right;
+
+}
+
+.button {
+	background-color: #00ccff;
+	color: #ffffff;
+	width: 90px;
+	clear: left;
+	margin-top: 20px;
+}
+
+.portfolio-box-left {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	float: left;
+	position: relative
+	left: 10%;
+	clear: left;
+}
+
+.portfolio-box-right {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	float: left;
+	position: relative
+	left: 10%;
+	clear: right;
+	
+}
+
+.ribbon {
+	background-color: #00ccff;
+	position: relative;
+	bottom: 40px;
+	width: 100%;
+	height: 24px;
+	color: #ffffff;
+	text-align: center;
+	z-index: 2;
 }
