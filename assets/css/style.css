@@ -1,237 +1,542 @@
 h1, h2, h3, h4, h5, h6, p, a {
-	font-family: Arial, Tahoma, sans-serif;
+  font-family: Arial, Tahoma, sans-serif;
 
 }
 h1 {
-	font-size: 24px;
-	line-height: 150%;
-	
+  font-size: 24px;
+  line-height: 150%;
+  
 }
 
 h2 {
-	font-size: 22px;
-	line-height: 150%;
-	color: #00ccff;
-	
+  font-size: 22px;
+  line-height: 150%;
+  color: #00ccff;
+  
 }
 
 h3 {
-	font-size: 20px;
-	line-height: 150%;
-	color: #00ccff;
-	
+  font-size: 20px;
+  line-height: 150%;
+  color: #00ccff;
+  
 }
 
 h4 {
-	font-size: 18px;
-	line-height: 150%;
-	color: #00ccff;
-	
+  font-size: 18px;
+  line-height: 150%;
+  color: #00ccff;
+  
 }
 
 h5 {
-	font-size: 16px;
-	line-height: 150%;
-	
+  font-size: 16px;
+  line-height: 150%;
+  
 }
 
 h6 {
-	font-size: 16px;
-	line-height: 150%;
-	
-	font-style: oblique;
+  font-size: 16px;
+  line-height: 150%;
+  
+  font-style: oblique;
 }
 
 p {
-	font-size: 16px;
-	line-height: 150%;
-	
-	
+  font-size: 16px;
+  line-height: 150%;
+  
+  
 }
 
 a {
-	font-size: 16px;
-	line-height: 150%;
-	color: #cccccc;
-	
+  font-size: 16px;
+  line-height: 150%;
+  color: #cccccc;
+  
 }
 
 body {
-	background-color: #dddddd;
-	overflow: auto;
+  background-color: #dddddd;
+  overflow: auto;
 }
 
 header {
-	background-color: #ffffff;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	text-align: right;
-	padding: 0 10px;
-	height: 60px;
-	overflow: auto;
-	z-index: 3;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: right;
+  padding: 0 10px;
+  height: 60px;
+  overflow: auto;
+  z-index: 3;
+
 }
 
 footer {
-	background-color: #aaaaaa;
-	position: fixed;
-	bottom: 0;
-	height: 40px;
-	width: 100%;
-	text-align: center;
-	padding: 0 auto;
-	color: #ffffff;
-	border-top-width: 3px;
-	border-top-style: solid;
-	border-top-color: #00ccff;
-	z-index: 4;
+  background-color: #aaaaaa;
+  position: fixed;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  padding: 0 auto;
+  color: #ffffff;
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: #00ccff;
+  z-index: 4;
 }
 
 .header-div {
-	background-color: #00ccff;
-	color: #ffffff;
-	position: absolute;
-	top: 0;
-	left: 100px;
-	width: 175px;
-	text-align: center;
-	float: left;
-	padding: 10px;
-	height: 100%;
+  background-color: #00ccff;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 100px;
+  width: 175px;
+  text-align: center;
+  float: left;
+  padding: 10px;
+  height: 100%;
 
 
 }
 
 .menu-div {
-	position: absolute;
-	padding: 10px;
-	float: right;
-	left: 900px
-	
+  position: absolute;
+  padding: 10px;
+  float: right;
+  left: 900px
+  
 }
 
 .menu-div1 {
-	position: relative;
-	padding: 2px 5px;
-	float: left;
+  position: relative;
+  padding: 2px 5px;
+  float: left;
 
-	border-right: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
 }
 
 
 .menu-div2 {
-	position: relative;
-	padding: 2px 5px;
-	border-right: 1px solid #cccccc;
-	float: left;
-	
+  position: relative;
+  padding: 2px 5px;
+  border-right: 1px solid #cccccc;
+  float: left;
+  
 }
 
 
 .menu-div3 {
-	position: relative;
-	padding: 2px 5px;
-	float: left;
-	
+  position: relative;
+  padding: 2px 5px;
+  float: left;
+  
 }
 
 
 .about-box {
-	position: absolute;
-	top: 100px;
-	background-color: #ffffff;
-	left: 100px;
-	max-width: 50%;
-	padding: 20px;
-	font-family: arial, sans-serif;
-	font-size: 16px;
-	line-height: 150%;
-	overflow: auto;
-	margin-bottom: 100px;
+  position: absolute;
+  margin-top: 100px;
+  background-color: #ffffff;
+  left: 100px;
+  max-width: 700px;
+  padding: 20px;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  overflow: auto;
+  margin-bottom: 100px;
 
 }
 
 .image-align {
-	float: left;
-	padding: 0 15px 15px 0;
+  float: left;
+  padding: 0 15px 15px 0;
 }
 
 .image-align2 {
-	float: left;
-	padding: 10px 3px 0 3px;
+  float: left;
+  padding: 10px 3px 0 3px;
 }
 
 .icon-box {
-	margin: auto;
+  margin: auto;
 }
 
 .connect-box {
-	position: absolute;
-	left: 900px;
-	top: 100px;
-	background-color: #ffffff;
-	padding: 20px;
-	width: 17%;
-	text-align: center;
-	
+  position: absolute;
+  left: 900px;
+  /*top: 100px;*/
+  background-color: #ffffff;
+  padding: 20px;
+  width: 17%;
+  text-align: center;
+  margin-top: 100px;
+  
 }
 
 .input-name {
-	width: 600px;
-	height: 20px;
+  width: 600px;
+  height: 20px;
 
 }
 
 .input-email {
-	width: 600px;
-	height: 20px;
+  width: 600px;
+  height: 20px;
 
 }
 
 .input-message {
-	width: 600px;
-	height: 45px;
-	clear: right;
+  width: 600px;
+  height: 45px;
+  clear: left;
 
 }
 
 .button {
-	background-color: #00ccff;
-	color: #ffffff;
-	width: 90px;
-	clear: left;
-	margin-top: 20px;
+  background-color: #00ccff;
+  color: #ffffff;
+  width: 90px;
+  clear: left;
+  margin-top: 20px;
 }
 
 .portfolio-box-left {
-	width: 200px;
-	height: 200px;
-	padding: 10px;
-	float: left;
-	position: relative
-	left: 10%;
-	clear: left;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  float: left;
+  position: relative
+  left: 10%;
+  clear: left;
 }
 
 .portfolio-box-right {
-	width: 200px;
-	height: 200px;
-	padding: 10px;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  float: left;
+  position: relative
+  left: 10%;
+  clear: right;
+  
+}
+
+.ribbon {
+  background-color: #00ccff;
+  position: relative;
+  bottom: 40px;
+  width: 100%;
+  height: 24px;
+  color: #ffffff;
+  text-align: center;
+  z-index: 2;
+}
+
+@media screen and (max-width: 980px) {
+
+header {
+	height: 40px;
+}
+footer {
+	height: 20px;
+}
+
+
+.header-div {
+  
+  left: 50px;
+  }
+
+
+.menu-div {
+ left: 500px
+  
+}
+
+/*.menu-div1 {
+  position: relative;
+  padding: 2px 5px;
+  float: left;
+
+  border-right: 1px solid #cccccc;
+}
+
+
+.menu-div2 {
+  position: relative;
+  padding: 2px 5px;
+  border-right: 1px solid #cccccc;
+  float: left;
+  
+}
+
+
+.menu-div3 {
+  position: relative;
+  padding: 2px 5px;
+  float: left;
+  
+}
+*/
+
+.about-box {
+  top: 50px;
+  left: 50px;
+  max-width: 350px;
+  margin-bottom: 50px;
+  margin-top: 45px;
+}
+
+.about-text {
 	float: left;
-	position: relative
-	left: 10%;
+	clear: left;
+	padding: 0;
+	margin: 0;
+}
+
+.image-align {
+  clear: right;
+}
+
+.image-align2 {
+  height: 50px;
+  width: 50px;
+}
+
+.connect-box {
+  left: 500px;
+  top: 50px;
+  width: 200px;
+  margin-top: 45px;
+  
+}
+
+
+
+.input-name {
+  width: 300px;
+
+}
+
+.input-email {
+  width: 300px;
+
+}
+
+.input-message {
+  width: 300px;
+
+
+}
+
+.button {
+  width: 65px;
+  clear: left;
+}
+
+.portfolio-box-right {
+  clear: left;
+  
+}
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+header {
+	height: 40px;
+}
+footer {
+	height: 20px;
+}
+
+
+.header-div {
+  
+  left: 25px;
+  }
+
+
+.menu-div {
+ left: 500px
+  
+}
+
+
+
+.about-box {
+  /*top: 50px;*/
+  max-width: 100%;
+  margin-bottom: 50px;
+  margin-left: 25px;
+  left: 0px;
+  margin-right: 25px;
+
+
+}
+
+.about-text {
+	float: right;
 	clear: right;
 	
 }
 
-.ribbon {
-	background-color: #00ccff;
-	position: relative;
-	bottom: 40px;
-	width: 100%;
-	height: 24px;
-	color: #ffffff;
-	text-align: center;
-	z-index: 2;
+
+.image-align2 {
+  height: 50px;
+  width: 50px;
+}
+
+.connect-box {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  top: 550px;
+  float: left;
+  margin-left: 25px;
+  margin-bottom: 40px;
+  margin-right: 25px;
+  margin: auto;
+  clear: left;
+  
+
+  
+}
+
+
+
+.input-name {
+  width: 500px;
+
+}
+
+.input-email {
+  width: 500px;
+
+}
+
+.input-message {
+  width: 500px;
+
+
+}
+
+.button {
+  width: 50px;
+  clear: left;
+}
+
+.portfolio-box-right {
+  clear: left;
+  
+}
+
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+header {
+	height: 40px;
+}
+footer {
+	height: 20px;
+}
+
+
+.header-div {
+  
+  left: 25px;
+  }
+
+
+.menu-div {
+ left: 500px
+  
+}
+
+
+
+.about-box {
+  /*top: 50px;*/
+  max-width: 100%;
+  margin-bottom: 50px;
+  margin-left: 25px;
+  left: 0px;
+  margin-right: 25px;
+
+
+}
+
+.about-text {
+	float: right;
+	clear: right;
+	
+}
+
+
+.image-align2 {
+  height: 50px;
+  width: 50px;
+}
+
+.connect-box {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  top: 550px;
+  float: left;
+  margin-left: 25px;
+  margin-bottom: 40px;
+  margin-right: 25px;
+  margin: auto;
+  clear: left;
+  
+
+  
+}
+
+
+
+.input-name {
+  width: 500px;
+
+}
+
+.input-email {
+  width: 500px;
+
+}
+
+.input-message {
+  width: 500px;
+
+
+}
+
+.button {
+  width: 50px;
+  clear: left;
+}
+
+.portfolio-box-right {
+  clear: left;
+  
+}
+
+
+
 }
