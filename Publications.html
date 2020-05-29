@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- The video -->
+<video autoplay muted loop id="myVideo">
+  <source src="Quarterly-publications-video.mp4" type="video/mp4">
+</video>
+
+<!-- Optional: some overlay text to describe the video -->
+<div class="content">
+  <h1>Research Publications</h1>
+    <p style="color: #ffffff"><strong><u><a href="/IBI-Benchmarking-Analytics-Short-Term-Disability-Incidence-Rates-Across-Demographic-Groups.pdf" target="_blank">IBI Benchmarking Analytics: Short-Term Disability Incidence Rates Across Demographic Groups</a></u></strong><br/>
+May 20, 2020</p>
+
+
+<p  style="color: #ffffff"><strong><u><a href="/Making-a-culture-of-health-actionable.pdf" target="_blank">Making a Culture of Health Actionable for Employers</a></u></strong><br/>
+May 11, 2020</p>
+
+
+<p style="color: #ffffff"><strong><u><a href="/Business-Value-of-Patient-Provider-Relationships-1.pdf" target="_blank">The Business Value of the Patient-Provider Relationship</a></u></strong><br/>
+Apr 8, 2020</p>
+
+
+<p style="color: #ffffff"><strong><u><a href="/Estimating-COVID-lost-work-time-costs-resource.pdf" target="_blank">U.S. Short-Term Disability (STD) and Sick Leave Cost Projections for Employee COVID-19 Cases</a></u></strong><br/>
+Apr 6, 2020</p>
+
+
+<p style="color: #ffffff"><strong><u><a href="/How-Employers-Can-Shape-Patient-Centered-Outcomes.pdf" target="_blank">How Employers Can Shape Patient-Centered Health Outcomes</a></u></strong><br/>
+Mar 9, 2020</p>
+<br/><br/>
+<a href="/homepage.html" style="font-family: arial; color: #000000;">Return to table of contents</a>
+</div>
+
+</body>
+</html>
+
+<script>
+// Get the video
+var video = document.getElementById("myVideo");
+
+// Get the button
+var btn = document.getElementById("myBtn");
+
+// Pause and play the video, and change the button text
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>

@@ -1,55 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>About Me</title>
-<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+	<!-- The video -->
+<video autoplay muted loop id="myVideo">
+  <source src="Quarterly-publications-video.mp4" type="video/mp4">
+</video>
 
-<header>
-	<div class="header-div">
-		<h1>Marshall Riddle</h1>
-	</div>
-	<div class="menu-div">
+<!-- Optional: some overlay text to describe the video -->
+<div class="content">
+  <h1>IBI's Recent Research and Publications</h1>
+    <p style="color: #ffffff"><strong><u><a href="/Publications.html">Research Publications</a></u></strong></p>
 
-		<div class="menu-div1">
-			<a href="/index.html">About</a>	
-		</div>
-		
-		<div class="menu-div2">
-			<a href="/portfolio.html">Portfolio</a>	
-		</div>
-		<div class="menu-div3">
-			<a href="/contact.html">Contact</a>
-		</div>
 
-	</div>
-</header>
+<p  style="color: #ffffff"><strong><u><a href="/Webinars.html">Webinar Recordings</a></u></strong></p>
 
-<div class="about-box">
-	
-		<h2>About Me</h2>
-		<hr/>
-		<img src="assets/images/Profile-MR.jpeg" alt="Marshall Riddle" class="image-align">
-		<div class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tortor fermentum, maximus nisi ut, molestie elit. Proin magna ante, dapibus vel bibendum et, vestibulum in ante. Etiam ultricies lorem non sapien feugiat ultricies. <br><br>Aliquam sollicitudin odio velit, quis finibus massa auctor id. Integer fringilla justo at dolor faucibus, eu ullamcorper augue consequat. Suspendisse ante libero, ullamcorper ut pulvinar at, auctor ut tortor. Nunc pulvinar vulputate arcu, in consequat augue molestie non. Praesent euismod mattis nunc vel tempor. Suspendisse dignissim sagittis scelerisque. Nullam at mi vitae metus viverra ultrices non ultricies sem. Aliquam dignissim magna sit amet varius malesuada. Etiam a leo erat. Sed non venenatis nisi, convallis malesuada ipsum.</div>
-	
-	
+
+<p style="color: #ffffff"><strong><u><a href="/Newsletters.html">Newsletters</a></u></strong></p>
+
+
 </div>
-
-<div class="connect-box">
-		<h3>Connect with me</h3><br>
-		<hr>
-		<div class="icon-box">
-		<a href="https://github.com/mriddle86/mriddle86.github.io" target="_blank"><img src="assets/images/github.png" alt="github" class="image-align2" ></a>
-		<a href="https://stackexchange.com/users/11908756/marshall-riddle" target="_blank"><img src="assets/images/stackoverflow.png" alt="stackoverflow" class="image-align2" ></a>
-		<a href="https://www.linkedin.com/in/marshall-riddle-02130112/" target="_blank"><img src="assets/images/linkedin.png" alt="linkedin" class="image-align2"></a></div>
-	</div>
-<footer>
-	<p>&#169; 2017 Marshall Riddle</p>
-</footer>
 
 </body>
 </html>
+
+<script>
+// Get the video
+var video = document.getElementById("myVideo");
+
+// Get the button
+var btn = document.getElementById("myBtn");
+
+// Pause and play the video, and change the button text
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
